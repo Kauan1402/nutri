@@ -1,0 +1,68 @@
+/* App.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #225067;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 22px;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  
+  .artigo {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 15px;
+    padding: 15px;
+    width: 280px;
+    box-shadow: 2px 2px 5px #4443431a;
+  }
+  
+  .artigo img {
+    width: 100%;
+    height: auto;
+    border-radius: 3px;
+    margin-bottom: 10px;
+  }
+  
+  .artigo strong {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .artigo p {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .artigo button {
+    background-color: #225067;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .artigo button:hover {
+    background-color: #225067;
+  }
+  
